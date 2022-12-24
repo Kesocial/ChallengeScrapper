@@ -1,0 +1,126 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-size: 16px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+table{
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-image:none;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background-size: 25px 25px;
+    place-content: center;
+    place-items: center;
+}
+:root{
+    font-size: 16px;
+}
+.color-custom{
+    background-color: #0077b6!important;
+}
+thead .Equipo{
+    display: table-cell!important;
+}
+tbody .Equipo{
+    display: flex!important;
+}
+.clasificacion td.Equipo {
+    align-items: center;
+    line-height: 1;
+    text-align: center;
+}
+
+.clasificacion tr:nth-child(1){
+    color: #ffff;
+    background-color: #0096c7;
+}
+.clasificacion tr:nth-child(2){
+    color: #ffff;
+    background-color: #0096c7;
+}
+.clasificacion tr:nth-child(3){
+    color: #ffff;
+    background-color: #0096c7;
+}
+.clasificacion tr:nth-last-child(1){
+    color: #ffff;
+    background-color: #03045e;
+}
+.clasificacion tr:nth-last-child(2){
+    color: #ffff;
+    background-color: #03045e;
+}
+.clasificacion tr:nth-last-child(3){
+    color: #ffff;
+    background-color: #03045e;
+}
+.clasificacion thead th{
+    background-color: #0077b6;
+    color: #ffff;
+    position: sticky!important;
+    top:0;
+}
+.clasificacion thead {
+    border-bottom: solid 3px #ffff;
+}
+.cell{
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.clasificacion img{
+    width: 25px;
+    height: 25px;
+}
+.clasificacion{
+    width: calc(100% - 6rem);
+    max-width: 50rem;
+    background-color: #ffff;
+    padding:1rem;
+    margin:3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .7rem;
+    z-index: 1000;
+    position: relative;
+}
+tr,th{
+    overflow: hidden;
+}
+.PJ, .G, .E, .P, .Pts{
+    display: table-cell!important;
+}
+@media screen and (max-width:600px){
+    .cell{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    :root{
+        font-size: 12px!important;
+    }
+}
+@media screen and (max-width:300px){
+    :root{
+        font-size: 10px!important;
+    }
+}
+ 
+/* 320px.
+480px.
+600px.
+768px.
+900px.
+1024px.
+1200px. */

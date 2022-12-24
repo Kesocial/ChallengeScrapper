@@ -1,0 +1,36 @@
+<table class="clasificacion">
+    <thead>
+         <tr>
+            <th class="cell Pos">Pos</th>
+            <th class="cell Equipo">Equipo</th>
+            <th class="cell PJ">PJ</th>
+            <th class="cell G">G</th>
+            <th class="cell E">E</th>
+            <th class="cell GF">GF</th>
+            <th class="cell GC">GC</th>
+            <th class="cell DG">DG</th>
+            <th class="cell Pts">Pts</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+        
+            {{#each equipos}}
+             <tr>
+                <td class="cell Pos">{{Pos}} </td>
+                <td class="cell equipo"> <img src={{img}} alt={{nombre}}> {{nombre}} </td>
+                <td class="cell PJ">{{PJ}} </td>
+                <td class="cell G">{{G}} </td>
+                <td class="cell E">{{E}} </td>
+                <td class="cell GF">{{GF}} </td>
+                <td class="cell GC">{{GC}} </td>
+                <td class="cell DG">{{DG}} </td>
+                <td class="cell Pts">{{Pts}} </td>
+             </tr>
+            {{/each }}
+       
+    </tbody>
+</table>
+
+
+{{!-- <link rel="stylesheet" href="/css/panel.css"> --}}
