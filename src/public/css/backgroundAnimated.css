@@ -6,7 +6,9 @@ body{
 
 }
 h2{
-color:#ffff;
+  color:#ffff;
+  margin:1rem;
+  text-align:center;
 }
 .circulos{
   top: 0;
