@@ -2,8 +2,14 @@
 body{
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   background: #4e54c8;  
-}
+  flex-direction: column;
 
+}
+h2{
+  color:#ffff;
+  margin:1rem;
+  text-align:center;
+}
 .circulos{
   top: 0;
   left: 0;
