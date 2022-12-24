@@ -1,4 +1,4 @@
-<h2>Scrapping a pagina de futbol</h2>
+<h2 align=center>Scrapping a pagina de futbol</h2>
 Practica de scrapper <a target="_blank" href="https://challengescrapper-production.up.railway.app/">Ver Challenge</a>
 
 Realizado con:
