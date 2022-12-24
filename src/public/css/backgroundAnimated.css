@@ -2,8 +2,11 @@
 body{
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   background: #4e54c8;  
+  align-content:center;
 }
-
+h2{
+color:#ffff;
+}
 .circulos{
   top: 0;
   left: 0;
