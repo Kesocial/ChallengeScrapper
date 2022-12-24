@@ -2,7 +2,8 @@
 body{
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   background: #4e54c8;  
-  align-content:center;
+  flex-direction: column;
+
 }
 h2{
 color:#ffff;
