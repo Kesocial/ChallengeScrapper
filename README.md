@@ -2,7 +2,9 @@
 
 <h2 align=center>Scrapping a pagina de futbol</h2>
 <h3 align="center">Practica de scrapper</h3>
-<p align="center"><a target="_blank" href="https://challengescrapper-production.up.railway.app/">Ver Challenge</a></p>
+<p align="center"><a target="_blank" href="https://challengescrapper-production.up.railway.app/">Ver Challenge</a>
+[![Casco astronauta](https://i.imgur.com/b1kbwbR.gif "Casco")](https://platzi.com/cursos "Nunca pares de aprender")
+</p>
   
   <p>Realizado con: </p>
     <a target=_blank href="https://cheerio.js.org/">Cheerio</a>
@@ -13,4 +15,4 @@
   
 
   
-[![Casco astronauta](https://i.imgur.com/b1kbwbR.gif "Casco")](https://platzi.com/cursos "Nunca pares de aprender")
+
