@@ -28,7 +28,7 @@ app.set("view engine", "hbs")
 
 //Ruta
 app.get("/", async (req, res) => {
-    const equipos = await Equipo.find({})
+    const equipos = await Equipo.find({}).sort({Pos:1})
     res.render("index", { equipos })
 })
 
@@ -40,4 +40,4 @@ app.listen(app.get("port"), () =>
     console.log("Server running on port ", app.get("port"))
 )
 console.log("Tiempo entre cada scrapping " + process.env.INTERVAL)
-setInterval(realizarPeticion, process.env.INTERVAL)
+setInterval(realizarPeticion, process.env.INTERVAL )
